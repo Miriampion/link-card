@@ -1,9 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
-  padding: .5em;
   line-height: 1.5em;
-  margin: 0;
 }
 
 *, *::before, *::after {
@@ -27,19 +25,27 @@ html {
   margin: 0 0 1rem;
 }
 
+.para {
+  font-size: 1rem;
+}
+
 a {
   text-decoration: none;
   display: inline-block;
   max-width: 25em;
   color: #512200;
   padding: 1rem;
+  margin: 0;
 }
 
 .top-box {
   border-bottom: 2px solid #9a816d;
   font-family: Georgia;
   font-size: 1.125rem;
+}
 
+.link-card:hover {
+  background-color: #cabdb2;
 }
 
 .bottom-box {
@@ -47,7 +53,7 @@ a {
 }
 
 .last-box {
- padding: 1rem ;
+ padding-top: 1rem;
  text-align: center;
 }
 
@@ -55,10 +61,14 @@ a {
   color: #f0eee8;
   background-color: #785439;
   display: inline-block;
+  border-radius: 8px;
   padding: .4em .75em .5em;
-  border-radius: 7px;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
+ }
+
+ dl {
+   line-height: 1.25rem;
  }
 
  dt,
@@ -69,6 +79,7 @@ a {
  dt {
   font-family: Georgia;
   width: 50%;
+  font-size: .875rem;
  }
 
  dd {
