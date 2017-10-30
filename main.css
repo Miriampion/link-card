@@ -1,5 +1,25 @@
 
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  padding: .5em;
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card {
+  padding: 1rem .75rem;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+.link-card {
+  border-radius: 8px;
 }
