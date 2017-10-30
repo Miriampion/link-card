@@ -53,8 +53,8 @@ a {
 }
 
 .last-box {
- padding-top: 1rem;
- text-align: center;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .btn {
@@ -65,26 +65,26 @@ a {
   padding: .4em .75em .5em;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
- }
+}
 
- dl {
-   line-height: 1.25rem;
- }
+dl {
+  line-height: 1.25rem;
+}
 
- dt,
- dd {
-  display:inline-block;
- }
+dt,
+dd {
+  display: inline-block;
+}
 
- dt {
+dt {
   font-family: Georgia;
   width: 50%;
   font-size: .875rem;
- }
+}
 
- dd {
+dd {
   font-family: Georgia;
   font-style: italic;
   font-size: .875rem;
   margin: 0;
- }
+}
